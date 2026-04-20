@@ -152,13 +152,14 @@ This project supports:
 
 ## 📸 Screenshots
 
-Add screenshots inside the `screenshots/` folder.
+### Playwright HTML Report
+![Playwright HTML Report](./screenshots/playwright-report.png)
 
-```md
-![HTML Report](./screenshots/playwright-report.png)
+### Allure Report
 ![Allure Report](./screenshots/allure-report.png)
+
+### Test Run
 ![Test Run](./screenshots/test-run.png)
-```
 
 ---
 
