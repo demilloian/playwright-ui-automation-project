@@ -1,0 +1,29 @@
+{
+  "name": "playwright-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test tests/login.spec.ts --headed",
+    "test:form": "playwright test tests/form.spec.ts --headed",
+    "test:search": "playwright test tests/search.spec.ts --headed",
+    "report:html": "npx playwright show-report",
+    "report:allure": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-commandline": "^2.38.1",
+    "allure-js-commons": "^3.7.1",
+    "allure-playwright": "^3.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
