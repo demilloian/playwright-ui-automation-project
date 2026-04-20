@@ -155,9 +155,9 @@ This project supports:
 Add screenshots inside the `screenshots/` folder.
 
 ```md
-![HTML Report](screenshots/playwright-report.png)
-![Allure Report](screenshots/allure-report.png)
-![Test Run](screenshots/test-run.png)
+![HTML Report](./screenshots/playwright-report.png)
+![Allure Report](./screenshots/allure-report.png)
+![Test Run](./screenshots/test-run.png)
 ```
 
 ---
